@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Vignesh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vignesh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vignesh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" class="intro">
+      <div class="section__pic-container">
+        <img src="./assets/1716899836586 (3).jpg" class="imgg" alt="Vignesh profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vignesh</h1><br/>
+        <p class="section__text__p2">Full-Stack Developer | Software Engineer</p>
+        <div class="btn-container">
+          <a href="./assets/Vignesh A P Resume.pdf" download> 
+          <button class="btn btn-color-2" onclick="location.href=''">Download CV</button>
+          </a>
+          
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Vignesh A P Resume.pdf')"
+          >
+            Open CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Hire Me!
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/vignesh-a-p-a62b91225/','_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/vignxhh','_blank')"
+          />
+        </div>
+      </div>
+    </section>
+	<br/>
+	<br/>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container reveal">
+          
+          <div class="text-container">
+            <p class="abouttxt">
+              Hi, I'm Vignesh, a MCA final semester student and a passionate Web Developer.I Wield HTML, CSS, JavaScript
+              , React.js, Spring boot, SQL, MongoDB and more. From creating sleek interfaces to optimizing workflows, I'm on a mission
+              to blend aesthetics with funtionality. Proficient in Git and GitHub for seamless collaboration.
+              Let's build something extraordinary!
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#education'"
+      />
+    </section>
+    <section id="education">
+      <div>              
+        <h1 class="title"><img
+          src="./assets/education.png"
+          alt="Experience icon"
+          class="icon" style="height: 3rem;"
+        />  Education</h1>
+		<br/>
+		<br/>
+      </div>
+      <div class="about-containers">
+        <div class="details-containered reveal">
+          <h3>Master of Computer Application</h3><br/>
+          <p><h4>K.L.N College of Engineering</h4><br><h4>7.4 CGPA</h4></p><br>
+          <p>2022 - 2024</p>
+        </div>
+        <div class="details-containered reveal">
+          <h3>Bachelor of Computer Science</h3><br/>
+          <p><h4>Sourashtra College</h4><br/><h4>7.9 CGPA</h4></p><br>
+          <p>2019 - 2022</p>
+        </div>
+        <div class="details-containered reveal">
+          <h3>12 TH</h3><br/>
+          <p><h4>Sourashtra Higher Secondary School</h4><br/><h4>52.17 %</h4></p><br>
+          <p>2019 - 2022</p>
+        </div><div class="details-containered reveal">
+          <h3>10 TH</h3><br/>
+          <p><h4>Sourashtra Higher Secondary School</h4><br/><h4>78.80 %</h4></p><br>
+          <p>2019 - 2022</p>
+        </div>        
+      </div>
+    </section>
+	<br/>
+	<br/>
+    <section id="skill">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skill</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container reveal">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article> -->
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+          <div class="details-container reveal">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spring boot</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container reveal">
+            <div class="article-container">
+              <img
+                src="./assets/software-application.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Payroll  Management System</h2>
+            <h5>&#8226; A Payroll Management System automates salary calculations, ensuring timely and accurate payments while adhering to tax laws. 
+              It integrates with HR and accounting software, providing comprehensive reports and enhancing efficiency and compliance. <br/>
+              &#8226; This system reduces errors and administrative workload, making payroll management seamless and reliable. 
+              <br/>&#8226; It ultimately supports better financial planning and employee satisfaction.
+            </h5> <br/>
+            <h5>Technology : <span>Java, MySQL, Spring boot</span></h5><br/>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/vignxhh/Payroll-Management-Spring-Boot','_blank')"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container reveal">
+            <div class="article-container">
+              <img
+                src="./assets/ml-model.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Credit Card Fraud Detection</h2>
+            <h5>&#8226; The rise of electronic commerce and communication technologies has made credit cards a prime target for fraud, 
+              leading to significant financial losses annually. <br/>
+              &#8226; To combat this, a robust fraud detection system is imperative. 
+              Our work introduces a machine learning-based fraud detection system with advanced feature engineering.<br/>
+              &#8226; Experiments using real-world data showcase its superior accuracy compared to alternative methods, 
+              making it an invaluable tool for credit card issuers to safeguard customers and mitigate losses.</h5><br/>
+              <h5>Technology : <span>pyhon, MySQL, Xampp</span></h5><br/>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+				target="_blank"
+                onclick="window.open('https://github.com/vignxhh/Credit-Card-Fraud-Detection-Using-python','_blank')"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Car Rental Landing page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact" class="reveal">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vignxhh@gmail.com">vignxhh@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vignesh-a-p-a62b91225/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 <span class="intro">Vignesh.</span> All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

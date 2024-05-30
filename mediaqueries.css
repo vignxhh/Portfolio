@@ -19,6 +19,10 @@
   #hamburger-nav {
     display: flex;
   }
+  .abouttxt{
+    font-size: 2rem;
+    padding: 4px;
+  }
   #skill,
   .experience-details-container {
     margin-top: 2rem;

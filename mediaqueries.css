@@ -21,7 +21,7 @@
   }
   .abouttxt{
     font-size: 1.2rem;
-    padding: 4px;
+    padding: 35px;
   }
   #skill,
   .experience-details-container {
@@ -68,7 +68,7 @@
   }
   .abouttxt{
     font-size: 1rem;
-    padding: 2px;
+    padding: 35px;
   }
   footer nav {
     height: fit-content;

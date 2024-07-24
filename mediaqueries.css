@@ -81,6 +81,7 @@
   }
   .contact-info-container {
     margin: 0;
+    gap : 2 px;
   }
   .contact-info-container p,
   .nav-links li a {
